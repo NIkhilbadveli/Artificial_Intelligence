@@ -59,7 +59,13 @@ def poly_fit(X, Y, p, lr, n_iter):
 df = pd.read_csv('polynomial_dataset.csv')
 x = df.loc[:, ~df.columns.isin(['Width', 'Species'])]
 y = df['Width'].to_numpy()
-y = y.reshape(y.shape[0], 1)
+
+# Tried fitting the linear data, not that much improvement.
+# I guess it's important to see the shape of the data and choose the model accordingly
+# df = pd.read_csv('linear_dataset.csv')
+# x = df[['OverallQual', 'GrLivArea', 'GarageCars']]
+# y = df['SalePrice'].to_numpy()
+# y = y.reshape(y.shape[0], 1)
 
 x = (x - x.mean()) / x.std()
 
