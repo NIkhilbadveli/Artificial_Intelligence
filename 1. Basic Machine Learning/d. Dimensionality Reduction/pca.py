@@ -4,6 +4,8 @@ import seaborn as sb
 import matplotlib.pyplot as plt
 
 
+# https://towardsdatascience.com/principal-component-analysis-pca-from-scratch-in-python-7f3e2a540c51
+
 def perform_pca(X, num_components):
     # Step-1 -> Subtracting mean from the data
     X_meaned = X - np.mean(X, axis=0)
