@@ -42,6 +42,8 @@ class HiddenLayer:
     def update_A(self, eta, n):
         self.A = self.A - eta * (self.dA / n)
 
+    # Todo try different activation functions (tanh, relu, softmax), different optimizers and see the performance
+    # Maybe hill climbing algorithm?
     def sigmoid(self, X):
         return 1.0 / (1.0 + np.exp(-X))
 
