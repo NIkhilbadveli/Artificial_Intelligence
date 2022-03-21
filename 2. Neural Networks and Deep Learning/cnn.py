@@ -78,3 +78,4 @@ def vgg8_dropout():
 vgg8_dropout()
 # Todo try using data augmentation and batch normalization
 # Also, maybe try transfer learning using WandB of AlexNet
+# So much more to try like ResNets, Inception networks
