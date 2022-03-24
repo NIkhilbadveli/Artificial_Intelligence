@@ -12,5 +12,3 @@ Project ideas:-
 - Some project where LSTM is best
 
 For each of the projects, accuracy should be clearly calculated and a way to improve or reasoning for that accuracy.
-
-# Todo Try to use polynomial equation for weights in ANNs
