@@ -7,3 +7,5 @@ scipy
 keras
 tensorflow
 gdown
+opencv-python
+mtcnn
