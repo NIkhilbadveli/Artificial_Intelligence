@@ -9,3 +9,5 @@ tensorflow
 gdown
 opencv-python
 mtcnn
+tensorflow_hub
+pillow
