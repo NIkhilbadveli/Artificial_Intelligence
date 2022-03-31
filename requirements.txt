@@ -11,3 +11,6 @@ opencv-python
 mtcnn
 tensorflow_hub
 pillow
+torch
+PyYAML
+torchvision
