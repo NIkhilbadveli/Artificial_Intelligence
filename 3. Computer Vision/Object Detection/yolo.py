@@ -40,6 +40,7 @@ image_width, image_height, _ = input_image.shape
 x_factor = image_width / 640
 y_factor = image_height / 640
 
+# Why 25200?
 for r in range(25200):
     row = output_data[r]
     confidence = row[4]

@@ -14,3 +14,4 @@ pillow
 torch
 PyYAML
 torchvision
+nltk
