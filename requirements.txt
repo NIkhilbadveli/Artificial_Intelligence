@@ -15,3 +15,5 @@ torch
 PyYAML
 torchvision
 nltk
+transformers
+sentencepiece
