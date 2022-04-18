@@ -18,3 +18,5 @@ nltk
 transformers
 sentencepiece
 flair
+gym
+pygame
